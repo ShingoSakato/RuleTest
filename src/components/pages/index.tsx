@@ -1,6 +1,9 @@
 export { default as Home } from './Home';
 export { default as Result } from './Result';
 export { default as Question } from './Question';
+export { default as QuestionList } from './QuestionList';
 export { default as Answer } from './Answer';
 export { default as Statistics } from './Statistics';
 export { default as Settings } from './Settings';
+export { default as MockExam } from './MockExam';
+export { default as MiniTest } from './MiniTest';

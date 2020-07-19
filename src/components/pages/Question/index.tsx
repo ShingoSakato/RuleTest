@@ -8,7 +8,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: COLOR.LIGHT,
+    backgroundColor: COLOR.MAIN,
   },
   button: {
     width: 300,

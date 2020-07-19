@@ -17,10 +17,10 @@ const styles = StyleSheet.create({
   },
 });
 
-export default function Settings() {
+export default function MockExam() {
   return (
     <View style={styles.container}>
-      <Button onPress={() => console.log('Settings')} style={styles.button} label="設定" />
+      <Button onPress={() => console.log('MockExam')} style={styles.button} label="MoxkExam" />
     </View>
   );
 }

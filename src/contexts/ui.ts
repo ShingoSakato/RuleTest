@@ -1,12 +1,14 @@
 import React from 'react';
 
 export enum Status {
-  LOADING = 'loading',
-  FIRST_OPEN = 'firstOpen',
+  INITIAL = 'Initial',
+  STUDY = 'Study',
+  MOCK_EXAM = 'MockExam',
+  MINI_TEST = 'MiniTest',
 }
 
 export function createApplicationInitialState(): Status {
-  return Status.LOADING;
+  return Status.INITIAL;
 }
 
 export const Context = React.createContext({

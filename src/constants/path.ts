@@ -1,6 +1,9 @@
 export const HOME = 'HOME';
 export const RESULT = 'RESULT';
 export const QUESTION = 'QUESTION';
+export const QUESTIONLIST = 'QUESTIONLIST';
 export const ANSWER = 'ANSWER';
 export const STATISTICS = 'STATISTICS';
 export const SETTINGS = 'SETTINGS';
+export const MOCK_EXAM = 'MOCK_EXAM';
+export const MINI_TEST = 'MINI_TEST';
